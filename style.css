@@ -1,0 +1,93 @@
+body {
+    background-image: url("./img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.inner {
+    height: 300px;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    box-sizing: border-box;
+}
+
+.colons {
+    font-size: 60px;
+    color: white;
+    margin: 0px 20px;
+}
+
+.hrs-div {
+    text-align: center;
+    color: white;
+    width: 80px;
+
+}
+
+.mins-div {
+    text-align: center;
+    color: white;
+    width: 80px;
+
+}
+
+.sec-div {
+    text-align: center;
+    color: white;
+    width: 80px;
+}
+
+#hrs {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+#hrs-txt {
+    font-size: 20px;
+}
+
+#mins {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+#mins-txt {
+    font-size: 20px;
+}
+
+#sec {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+#sec-txt {
+    font-size: 20px;
+}
+
+.calender {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#day {
+    margin-left: 20px;
+}
